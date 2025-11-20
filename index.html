@@ -497,10 +497,7 @@ window.downloadVisualReport = async function() {
             
             1. Analyze the user's input to identify the game name, the incorrect scenario (Observed Behavior), and the desired outcome (Expected Behavior).
             2. The 'stepsToReproduce' field MUST start with the following mandatory preamble (use the identified Game Name or [Specific Game] if none is mentioned):
-               1. Open JioGames
-               2. 2. Go to Instant Games
-               3. 3. Search for "[Game Name/Specific Game]"
-               4. 4. Open that game
+               1. Open [Game Name/Specific Game]
             3. Append the specific steps needed to trigger the bug to the end of the mandatory preamble. Ensure all steps are numbered sequentially.
             4. Output the result ONLY as a single JSON object conforming strictly to the provided schema. Do not include any text outside the JSON object.`;
 
@@ -576,4 +573,5 @@ window.downloadVisualReport = async function() {
     </script>
 
 </body>
+
 </html>
